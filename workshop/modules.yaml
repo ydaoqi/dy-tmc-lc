@@ -1,0 +1,37 @@
+modules:
+  workshop-overview:
+    name: Workshop Overview
+    exit_sign: VMware Tanzu Mission Control Concepts
+  exercises/01-tmc-foundation:
+    name: VMware Tanzu Mission Control Concepts
+    exit_sign: Launch the TMC Console
+  exercises/02-launch-tmc:
+    name: Launch the TMC Console
+    exit_sign: Access Policies
+  exercises/03-access-policies:
+    name: Access Policies
+    exit_sign: Image Registry Policies
+  exercises/04-image-policies:
+    name: Image Registry Policies
+    exit_sign: Network Policies
+  exercises/05-network-policies:
+    name: Network Policies
+    exit_sign: Security Policies
+  exercises/06-security-policies:
+    name: Security Policies
+    exit_sign: Quota Policies
+  exercises/07-quota-policies:
+    name: Quota Policies
+    exit_sign: Custom Policies
+  exercises/08-custom-policies:
+    name: Custom Policies
+    exit_sign: Cluster Inspection
+  exercises/09-inspection:
+    name: Cluster Inspection
+    exit_sign: Data Protection
+  exercises/10-data-protection:
+    name: Data Protection
+    exit_sign: Workshop Summary
+  workshop-summary:
+    name: Workshop Summary
+    exit_sign: Finish Workshop

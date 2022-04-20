@@ -1,0 +1,20 @@
+apiVersion: learningcenter.tanzu.vmware.com/v1beta1
+kind: TrainingPortal
+metadata:
+  name: tko-tmc-day1
+  annotations:
+    kapp.k14s.io/update-strategy: always-replace
+spec:
+  portal:
+    ingress:
+      hostname: workshop.tko.mytanzusandbox.com
+    password: C9fRFU9oRIoS
+    registration:
+      type: anonymous
+      enabled: true
+  workshops:
+    - name: tko-day1
+      capacity: 25
+      expires: 300m
+      orphaned: 45m
+      #reserved: 8

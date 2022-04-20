@@ -1,0 +1,8 @@
+fullName:
+  clusterName: tko-tmc-cluster
+  managementClusterName: attached
+  name: small-qp-cli
+  provisionerName: attached
+spec:
+  recipe: small
+  type: namespace-quota-policy

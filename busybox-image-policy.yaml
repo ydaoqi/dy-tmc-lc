@@ -1,0 +1,11 @@
+fullName:
+  name: busybox-ip-cli
+  workspaceName: tko-day1-ops-ws
+spec:
+  input:
+    rules:
+      - imageName: library/busybox
+        tag: {}
+  recipe: custom
+  recipeVersion: v1
+  type: image-policy

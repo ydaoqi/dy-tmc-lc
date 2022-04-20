@@ -1,0 +1,10 @@
+fullName:
+  clusterName: cluster
+  name: strict-security-policy-cli
+  managementClusterName: attached
+  provisionerName: attached
+spec:
+  input: {}
+  recipe: strict
+  recipeVersion: v1
+  type: security-policy
