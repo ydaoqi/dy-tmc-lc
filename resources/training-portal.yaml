@@ -7,7 +7,7 @@ metadata:
 spec:
   portal:
     ingress:
-      hostname: workshop.tko.mytanzusandbox.com
+      hostname: workshop.tlc.tapa.dyang.link
     password: C9fRFU9oRIoS
     registration:
       type: anonymous

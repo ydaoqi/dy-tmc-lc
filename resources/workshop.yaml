@@ -10,9 +10,9 @@ spec:
   vendor: eduk8s.io
   difficulty: beginner
   duration: 15m
-  url: https://github.com/Tanzu-Partner-SE/tmc-tko-lc
+  url: https://github.com/ydaoqi/dy-tmc-lc
   content:
-    files: github.com/Tanzu-Partner-SE/tmc-tko-lc?ref=main
+    files: github.com/ydaoqi/dy-tmc-lc?ref=main
     image: harbor.mytanzusandbox.com/learningcenter/tko-day1:0.0.5
   session:
     resources:
