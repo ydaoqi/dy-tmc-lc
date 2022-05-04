@@ -12,7 +12,7 @@ spec:
     updates:
       workshop: true
     ingress:
-      hostname: workshop.tlc.tapa.dyang.link
+      hostname: workshop.tlc.tap.dyang.link
     password: C9fRFU9oRIoS
     registration:
       type: anonymous
