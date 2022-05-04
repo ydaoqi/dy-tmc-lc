@@ -1,3 +1,4 @@
+#https://docs.vmware.com/en/Tanzu-Application-Platform/1.0/tap/GUID-learning-center-workshop-content-working-on-content.html
 apiVersion: learningcenter.tanzu.vmware.com/v1beta1
 kind: TrainingPortal
 metadata:
@@ -6,6 +7,10 @@ metadata:
     kapp.k14s.io/update-strategy: always-replace
 spec:
   portal:
+    sessions:
+      maximum: 1
+    updates:
+      workshop: true
     ingress:
       hostname: workshop.tlc.tapa.dyang.link
     password: C9fRFU9oRIoS

@@ -7,4 +7,3 @@ To update the workshop run this command in the workshop terminal
 ```
 update-workshop
 ```
-# dy-tmc-lc
