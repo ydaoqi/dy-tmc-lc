@@ -13,7 +13,7 @@ spec:
   url: https://github.com/ydaoqi/dy-tmc-lc
   content:
     files: github.com/ydaoqi/dy-tmc-lc?ref=main
-    #image: harbor.mytanzusandbox.com/learningcenter/tko-day1:0.0.5
+    image: harbor.mytanzusandbox.com/learningcenter/tko-day1:0.0.5
   session:
     resources:
       storage: 5Gi
