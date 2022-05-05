@@ -7,7 +7,7 @@ metadata:
 spec:
   portal:
     ingress:
-      hostname: workshop.tlc.tap.dyang.link
+      hostname: workshop.tlc.tapa.dyang.link
     password: C9fRFU9oRIoS
     registration:
       type: anonymous
