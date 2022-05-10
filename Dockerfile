@@ -27,8 +27,8 @@ RUN gpasswd -a eduk8s sudo
 # TCE
 
 RUN tar xzvf tce-linux-amd64-v0.10.0.tar.gz
-COPY install-tce.sh tce-linux-amd64-v0.10.0/
-RUN cd tce-linux-amd64-v0.10.0 && chmod +x ./install-tce.sh && ./install-tce.sh
+#COPY install-tce.sh tce-linux-amd64-v0.10.0/
+#RUN cd tce-linux-amd64-v0.10.0 && chmod +x ./install-tce.sh && ./install-tce.sh
 RUN chown -R eduk8s /home/eduk8s 
 
 RUN gpasswd -a eduk8s docker 
